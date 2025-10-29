@@ -1,6 +1,6 @@
 //EN
 
-🎬 Project Description
+🎬 Web App Description
 
 This web application integrates The Movie Database (TMDB) API to display an updated catalog of movies.
 Users can register, log in, and log out, with their data stored locally using Local Storage.
@@ -16,6 +16,8 @@ The main page showcases a dynamic movie database that can be filtered by genre. 
 Additionally, users can access a dedicated Lists section through the navigation bar to manage and review their saved movies.
 
 //ES
+
+🎬 Descripción de la app
 
 Esta aplicación web utiliza la API de The Movie Database (TMDB) para mostrar un catálogo actualizado de películas.
 Los usuarios pueden registrarse, iniciar y cerrar sesión, y su información se guarda localmente mediante Local Storage.
