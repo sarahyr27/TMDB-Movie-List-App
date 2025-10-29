@@ -1,5 +1,5 @@
 //EN
-🎬 Project Description (English)
+🎬 Project Description
 
 This web application integrates The Movie Database (TMDB) API to display an updated catalog of movies.
 Users can register, log in, and log out, with their data stored locally using Local Storage.
