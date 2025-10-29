@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Lista de Películas</title>
+  </head>
+  <body>
+    <!-- Menú superior -->
+    <header>
+      <nav class="navbar">
+        <div class="navbar-left">
+          <h1>TDMB UOC</h1>
+          <h2>Programación web</h2>
+        </div>
+        <ul class="navbar-right">
+          <li><a href="indice.html">Films</a></li>
+          <li>
+            <a href="listas.html"
+              >Listas <i class="fa-solid fa-heart"></i>
+              <span style="font-size: 0.6em" class="favoritesCount"></span>
+              <i class="fa-solid fa-eye"></i>
+              <span style="font-size: 0.6em" class="watchedCount"></span>
+              <i class="fa-solid fa-clock"></i>
+              <span style="font-size: 0.6em" class="pendingCount"></span
+            ></a>
+          </li>
+          <li><a href="video.html">Video</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropbtn menuButton">Usuario</a>
+            <div class="dropdown-content">
+              <a href="#" id="logoutButton">Logout</a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <h1>Video explicativo</h1>
+
+    <div id="VideoContainer">
+      <video src="../media/video.mp4" controls>
+      </video>
+    </div>
+  </body>
+  <script src="../js/config.js"></script>
+  <script src="../js/clases.js"></script>
+  <script src="../js/auxs.js"></script>
+  <script src="../js/video.js"></script>
+  <script src="../js/menu.js"></script>
+</html>

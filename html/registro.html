@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <title>Registro de Usuario</title>
+</head>
+<body>
+    <div id="register" class="form">
+        <form id="registerForm" action=""  method="get"> <!-- Uso el atributo required para que el campo no pueda estar vacío -->
+            <div>
+                <h3>Registro de usuario</h3>
+            </div>
+            <div class="form-group">
+                <label for="name">Nombre: <span class="req">*</span></label>
+                <input type="text" id="name" name="name" required> <!-- Uso el atributo required para que el campo no pueda estar vacío -->
+            </div>
+            <div class="form-group">
+                <label for="surname">Apellidos: <span class="req">*</span></label>
+                <input type="text" id="surname" name="surname" required>
+            </div>
+            <div class="form-group">
+                <label for="address">Dirección: <span class="req">*</span></label>
+                <input type="text" id="address" name="address" required>
+            </div>
+            <div class="form-group">
+                <label for="city">Población: <span class="req">*</span></label> <!-- Aunque no pone que es un requisito en el enunciado, considero que lo debe de ser -->
+                <select id="city" name="city" required>
+                    <option value="">Seleccione una población</option>
+                    <option value="Madrid">Madrid</option>
+                    <option value="Barcelona">Barcelona</option>
+                    <option value="Valencia">Valencia</option>
+                    <option value="Vigo">Vigo</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="postalCode">Código Postal: <span class="req">*</span></label> <!-- Aunque no pone que es un requisito en el enunciado, considero que lo debe de ser -->
+                <input type="text" id="postalCode" name="postalCode" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-group">
+                <label for="username">Usuario: <span class="req">*</span></label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="password">Contraseña: <span class="req">*</span></label>
+                <input type="password" id="password" name="password" required> <!-- Aunque no pone que es un requisito en el enunciado, considero que lo debe de ser -->
+            </div>
+    
+            <button type="submit" id="save">Guardar</button> <!-- Cambio el tipo "button" por "submit" para poder subir los valores del formulario al local storage -->
+            <button type="button" id="returnToLoginButton">Volver a Login</button> <!-- Le cambio el ID para que no me cause confusión con el del index, que tiene le mismo ID -->
+
+        </form>
+    </div>  
+</body>
+<script src="../js/config.js"></script>
+<script src="../js/clases.js"></script>
+<script src="../js/registro.js"></script>
+</html>
