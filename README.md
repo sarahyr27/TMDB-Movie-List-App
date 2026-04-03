@@ -12,16 +12,4 @@ This app was developed as a part of a university project for the Digital Interac
 
 ---
 
-## Technologies
-
-- **Frontend:** HTML5, CSS3, JavaScript (ES6+)
-- **API Integration:** TMDB API for fetching movie data
-- **Data Storage:** localStorage for persistent user data
-- **Tools & Libraries:**
-  - Chrome / Firefox DevTools for debugging
-  - VS Code for development
-  - Git/GitHub for version control
-
-  ***
-
 Note: Please be mindful that this version is only available in Spanish
